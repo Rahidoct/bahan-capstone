@@ -812,6 +812,11 @@ ol {
 	display: flex;
 	align-items: center;
 	padding-left: 75px;
+	border-radius: 10px;
+}
+
+.hero__item .primary-btn {
+	border-radius: 10px;
 }
 
 .hero__text span {
@@ -841,6 +846,7 @@ ol {
 .categories__item {
 	height: 270px;
 	position: relative;
+	border-radius: 10px;
 }
 
 .categories__item h5 {
@@ -861,6 +867,7 @@ ol {
 	padding: 12px 0 10px;
 	background: #ffffff;
 	display: block;
+	border-radius: 10px;
 }
 
 .categories__slider .col-lg-3 {
@@ -943,6 +950,7 @@ ol {
 	position: relative;
 	overflow: hidden;
 	background-position: center center;
+	border-radius: 10px;
 }
 
 .featured__item__pic__hover {
@@ -2817,12 +2825,17 @@ ol {
 .footer__copyright__text {
 	font-size: 14px;
 	color: #1c1c1c;
+	top: 2.5px;
 	float: left;
 	line-height: 25px;
 }
 
 .footer__copyright__payment {
 	float: right;
+}
+
+.footer__copyright__payment img {
+	height: 2rem;
 }
 
 /*---------------------
